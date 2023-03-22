@@ -1,0 +1,12 @@
+$color_1: #22223B;
+$font-family_1: montserrat;
+
+.seccionprincipal {
+	background-size: cover;
+}
+.tituloprincipal {
+	font-family: $font-family_1;
+	font-size: 60px;
+	opacity: 85%;
+	color: $color_1;
+}

@@ -1,0 +1,56 @@
+.body {
+  background-color: #4A4E69;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.tracking-in-expand {
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+.seccionprincipal {
+  background-size: cover;
+}
+
+.tituloprincipal {
+  font-family: montserrat;
+  font-size: 60px;
+  opacity: 85%;
+  color: #22223B;
+}
+
+.parrafo {
+  font-size: 20px;
+  font-family: montserrat;
+  color: #22223B;
+}
+
+.card {
+  align-items: center;
+  align-content: center;
+}
+
+.card-img {
+  transition: 1s;
+}
+.card-img:hover {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 46px;
+}
+
+.card-text {
+  font-size: 32px;
+}/*# sourceMappingURL=estilos.css.map */

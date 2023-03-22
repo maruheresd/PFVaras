@@ -1,0 +1,22 @@
+@import "./assets/body";
+@import "./assets/titulos";
+@import "./assets/secprincipal";
+@import "./assets/parrafos";
+@import "./assets/footer";
+
+.card {
+	align-items: center;
+	align-content: center;
+}
+.card-img {
+	transition: 1s;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+.card-title {
+	font-size: 46px;
+}
+.card-text {
+	font-size: 32px;
+}
